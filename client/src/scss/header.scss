@@ -13,10 +13,11 @@ nav{
   div{
     width: 100%;
     a, button {
-      height: 40px;
+      height: $menu-height;
       width: 100%;
+      border-bottom: 1px solid $border-color;
       img{
-        height: 38px;
+        height: ($menu-height - 2px);
       }
     }
   }

@@ -17,13 +17,13 @@ const Header = () => {
       <nav>
         <div>
           <a href="/"><img src={logo} alt="svg logo" /></a>
+        </div>
+        <div>
           <button
             onClick = {()=> menuSwitchHandler()}
           >
             Menu { menuSwitch ? "X" : "\u2630" }
           </button>
-        </div>
-        <div>
           { menuSwitch && (
               <>
                 <a href="/">this is an anchor tag</a>
