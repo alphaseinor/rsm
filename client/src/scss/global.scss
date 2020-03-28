@@ -1,0 +1,35 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  p{
+    height: ($menu-height / 2.2);
+    width: ($menu-height / 2.2);
+    color: inherit;
+    background-color: inherit;
+    
+  }
+  .switch{
+    $color: white;
+    $background-color: #444444;
+    justify-content: space-between;
+    height: ($menu-height - 4px);
+    width: ($menu-height / 2);
+    border: 1px solid $border-color;
+    border-radius: $menu-height / 10;
+    div {
+      height: ($menu-height / 2.2);
+      width: ($menu-height / 2.2);
+      background-color: $border-color;
+      border: 1px solid $color;
+      border-radius: $menu-height / 10;
+    }
+    p {
+      font-size: .6rem;
+    }
+  }
+  .on {
+    flex-direction: column-reverse;
+  }
+}
