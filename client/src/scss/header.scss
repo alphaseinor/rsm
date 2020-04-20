@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100000;
+}
+
+nav {
+  width: 100%;
+}
+
+nav{
+  div{
+    width: 100%;
+    a, button {
+      height: $menu-height;
+      width: 100%;
+      border-bottom: 1px solid $border-color;
+      img{
+        height: ($menu-height - 2px);
+      }
+
+    }
+  }
+}
+
+
